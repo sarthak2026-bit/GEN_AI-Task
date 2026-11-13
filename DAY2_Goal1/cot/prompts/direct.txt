@@ -1,0 +1,5 @@
+﻿Analyze the following insurance claim and policy rules. Answer strictly with 'Yes' or 'No' as the final word.
+
+Scenario: {claim_text}
+
+Answer:

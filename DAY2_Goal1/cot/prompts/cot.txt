@@ -1,0 +1,5 @@
+﻿Analyze the following insurance claim and policy rules. Think step by step through the policy conditions, exclusions, and claim details in a clear reasoning block, and then conclude your final response with strictly 'Yes' or 'No'.
+
+Scenario: {claim_text}
+
+Reasoning and Answer:

@@ -1,0 +1,31 @@
+ticket_id,ticket_text,ground_truth,zero_shot_pred,zero_correct,few_shot_pred,few_correct,role_based_pred,role_correct
+TKT-101,I want my money back for this defective item.,Refund,Refund,True,Refund,True,Refund,True
+TKT-102,Where is my order? It is delayed by 5 days.,Shipping,Shipping,True,Shipping,True,Shipping,True
+TKT-103,I cannot log into my account using my password.,Login,Login,True,Login,True,Login,True
+TKT-104,My card was charged twice for order #4589.,Payment,Payment,True,Payment,True,Payment,True
+TKT-105,How do I update my email address in profile settings?,Account,Account,True,Account,True,Account,True
+TKT-106,The fabric quality is very poor and it tore easily.,Product Quality,Product Quality,True,Product Quality,True,Product Quality,True
+TKT-107,Can I change my delivery address to Mumbai?,Order Change,Order Change,True,Order Change,True,Shipping,False
+TKT-108,Do you guys offer gift wrapping services?,Other,Other,True,Other,True,Other,True
+TKT-109,Please issue a refund to my bank account.,Refund,Refund,True,Refund,True,Refund,True
+TKT-110,Tracking number is showing invalid status.,Shipping,Shipping,True,Shipping,True,Shipping,True
+TKT-111,Password reset link is not arriving in my inbox.,Login,Login,True,Login,True,Login,True
+TKT-112,Payment failed but money was debited from my account.,Payment,Payment,True,Payment,True,Payment,True
+TKT-113,Deactivate my account permanently please.,Account,Account,True,Account,True,Account,True
+TKT-114,The screen protector arrived completely shattered.,Product Quality,Product Quality,True,Product Quality,True,Product Quality,True
+TKT-115,I need to add another item to my existing order.,Order Change,Order Change,True,Order Change,True,Order Change,True
+TKT-116,What are your customer support working hours?,Other,Other,True,Other,True,Other,True
+TKT-117,Requesting cancellation and refund for my subscription.,Refund,Refund,True,Refund,True,Refund,True
+TKT-118,Package was marked delivered but I never received it.,Shipping,Shipping,True,Shipping,True,Shipping,True
+TKT-119,Two-factor authentication code is not working.,Login,Login,True,Login,True,Login,True
+TKT-120,I was charged extra delivery fees by mistake.,Payment,Refund,False,Refund,False,Refund,False
+TKT-121,How can I download my past invoice PDFs?,Account,Account,True,Account,True,Account,True
+TKT-122,The zipper on the jacket broke on day one.,Product Quality,Product Quality,True,Product Quality,True,Product Quality,True
+TKT-123,Can I switch my shipping mode from standard to express?,Order Change,Order Change,True,Order Change,True,Order Change,True
+TKT-124,Can you recommend a product for winter wear?,Other,Other,True,Other,True,Other,True
+TKT-125,Process my refund immediately or I will report.,Refund,Refund,True,Refund,True,Refund,True
+TKT-126,Courier guy returned the package without calling me.,Shipping,Shipping,True,Shipping,True,Shipping,True
+TKT-127,Account is locked due to multiple wrong login attempts.,Login,Login,True,Login,True,Login,True
+TKT-128,Discount coupon code was not applied at checkout.,Payment,Payment,True,Payment,True,Payment,True
+TKT-129,Where can I see my saved delivery addresses?,Account,Account,True,Account,True,Account,True
+TKT-130,The battery life of the electronic device is terrible.,Product Quality,Product Quality,True,Product Quality,True,Product Quality,True

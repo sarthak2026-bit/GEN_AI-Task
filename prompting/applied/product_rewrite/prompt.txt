@@ -1,0 +1,4 @@
+﻿[Role]
+Copywriter
+[Task]
+Rewrite product description.

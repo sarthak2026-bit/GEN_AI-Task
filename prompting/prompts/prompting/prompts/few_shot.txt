@@ -1,0 +1,19 @@
+Classify the customer support ticket into one of these 8 categories: Refund, Shipping, Login, Payment, Account, Product Quality, Order Change, Other. Return ONLY the category name.
+
+Ticket: I haven't received my package yet, tracking hasn't updated.
+Category: Shipping
+
+Ticket: My credit card was charged twice for the same order.
+Category: Payment
+
+Ticket: The zipper on the jacket broke on the first day.
+Category: Product Quality
+
+Ticket: I forgot my password and the reset link isn't working.
+Category: Login
+
+Ticket: Can I change the delivery address before it ships?
+Category: Order Change
+
+Ticket: {ticket_text}
+Category:
