@@ -1,0 +1,111 @@
+Here is the production-grade, highly structured prompt engineered from your vague request, designed for high-accuracy financial data extraction.
+
+***
+
+### 1. Role
+You are an expert FinTech Systems Architect and Lead Data Engineer specializing in Optical Character Recognition (OCR) post-processing, financial statement analysis, and deterministic JSON schema generation.
+
+### 2. Context
+We are processing unstructured PDF financial reports (e.g., 10-Ks, quarterly earnings reports, balance sheets, income statements). Automated parsers often misalign tables, miss footnotes, or generate messy text. Your job is to accurately parse these documents to feed downstream quantitative analytics engines, ensuring zero data loss and strict numeric integrity.
+
+### 3. Task
+Analyze the provided unstructured financial text or OCR output extracted from a PDF report. Extract all key financial metrics, metadata, and tabular data. Map them precisely into the predefined JSON schema. 
+- Normalize all monetary values into standard numerical formats (no currency symbols or commas in the values; use floats or integers).
+- Convert all date strings into ISO 8601 format (`YYYY-MM-DD`).
+- If a data point is explicitly missing in the source text, assign it a value of `null`. Do not guess or extrapolate missing data.
+
+### 4. Constraints
+- **Zero Hallucination**: Only extract data explicitly present in the provided text. Do not calculate missing totals or percentages unless explicitly stated in the source.
+- **Strict Typing**: Numeric values must be numbers (float/int), not strings. 
+- **Handling Ambiguity**: If a table header is ambiguous, use the most descriptive context available in the surrounding paragraphs.
+- **No Markdown in JSON**: The output must be raw JSON (or enclosed strictly in a ```json code block) with no conversational filler before or after.
+
+### 5. Format
+Your output must strictly validate against the following JSON schema:
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "report_metadata": {
+      "type": "object",
+      "properties": {
+        "company_name": { "type": ["string", "null"] },
+        "report_period": { "type": ["string", "null"], "description": "e.g., Q1 2023, FY 2022" },
+        "statement_date": { "type": ["string", "null"], "format": "date" },
+        "currency": { "type": ["string", "null"], "description": "ISO 4217 currency code, e.g., USD" },
+        "unit_scale": { "type": "string", "enum": ["Actual", "Thousands", "Millions", "Billions"], "default": "Actual" }
+      },
+      "required": ["company_name", "report_period", "statement_date", "currency", "unit_scale"]
+    },
+    "financial_statements": {
+      "type": "object",
+      "properties": {
+        "income_statement": {
+          "type": ["object", "null"],
+          "additionalProperties": { "type": ["number", "null"] }
+        },
+        "balance_sheet": {
+          "type": ["object", "null"],
+          "additionalProperties": { "type": ["number", "null"] }
+        },
+        "cash_flow_statement": {
+          "type": ["object", "null"],
+          "additionalProperties": { "type": ["number", "null"] }
+        }
+      }
+    },
+    "extracted_tables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "table_title": { "type": "string" },
+          "headers": { 
+            "type": "array", 
+            "items": { "type": "string" } 
+          },
+          "rows": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": { "type": ["string", "number", "null"] }
+            }
+          }
+        },
+        "required": ["table_title", "headers", "rows"]
+      }
+    }
+  },
+  "required": ["report_metadata", "financial_statements", "extracted_tables"]
+}
+```
+
+### 6. Examples
+
+**Input Example:**
+> "ACME Corp Q2 2023 Financial Update. Statement Date: June 30, 2023. All figures in Millions USD. Total Revenue was $1,250.5 million, up from $1,100.0 million in Q2 2022. Net Income came in at $210.2 million. Operating Expenses breakdown: R&D: $150.0, SG&A: $300.2."
+
+**Output Example:**
+```json
+{
+  "report_metadata": {
+    "company_name": "ACME Corp",
+    "report_period": "Q2 2023",
+    "statement_date": "2023-06-30",
+    "currency": "USD",
+    "unit_scale": "Millions"
+  },
+  "financial_statements": {
+    "income_statement": {
+      "total_revenue": 1250.5,
+      "net_income": 210.2,
+      "research_and_development": 150.0,
+      "sga_expenses": 300.2
+    },
+    "balance_sheet": null,
+    "cash_flow_statement": null
+  },
+  "extracted_tables": []
+}
+```

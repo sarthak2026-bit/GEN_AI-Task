@@ -1,0 +1,6 @@
+﻿brief_id,generated_prompt_quality_1to5,has_all_6_sections,what_was_missing
+brief_1,5,True,None. Included robust JSON constraints and table extraction examples.
+brief_2,4,True,Minor lack of routing destination examples in the formatting section.
+brief_3,5,True,Excellent adherence to SEO keyword constraints and tone guidelines.
+brief_4,4,False,Examples section was slightly abbreviated; needed a sample clause.
+brief_5,5,True,Covered regional localization nuances and tone preservation effectively.
