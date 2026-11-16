@@ -1,0 +1,19 @@
+{
+  "variants": [
+    {
+      "variant_id": 1,
+      "headline": "Transform Your Kitchen Scraps into Nutrient-Rich Gold",
+      "body_copy": "Living in an apartment does not mean you cannot live sustainably. The FreshBox Zero-Waste Kitchen Composter quietly turns your daily fruit and vegetable scraps into odor-free garden fertilizer in just four hours."
+    },
+    {
+      "variant_id": 2,
+      "headline": "Zero Odor, Zero Noise, Zero Waste",
+      "body_copy": "Experience effortless apartment composting without the smells or the hassle. Running at a whisper-quiet forty decibels, this compact composter uses replaceable activated carbon filters to keep your kitchen fresh while you help the planet."
+    },
+    {
+      "variant_id": 3,
+      "headline": "Elevate Your Eco-Friendly Apartment Lifestyle",
+      "body_copy": "Turn daily food prep into instant garden fertilizer right from your countertop. The FreshBox Zero-Waste Kitchen Composter operates under forty decibels, making it the ultimate quiet addition to any conscious urban home."
+    }
+  ]
+}

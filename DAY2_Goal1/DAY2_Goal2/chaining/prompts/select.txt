@@ -1,0 +1,8 @@
+﻿You are a Brand Compliance & Creative Director. Review the 3 ad copy variants below against our strict Brand Rules.
+Select the single best variant that complies with ALL brand rules and resonates best with the audience. Explain clearly why it won and why the others were rejected (if any violated rules).
+
+Brand Rules:
+{brand_rules}
+
+Ad Copy Variants (JSON):
+{variants_json}

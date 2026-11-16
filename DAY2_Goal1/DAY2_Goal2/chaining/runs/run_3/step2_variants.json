@@ -1,0 +1,19 @@
+{
+  "variants": [
+    {
+      "variant_id": 1,
+      "headline": "Caf\u00e9-Quality Espresso Anywhere You Roam",
+      "body_copy": "Tired of instant coffee on your outdoor adventures? The BrewMate Pocket Espresso requires no batteries and fits right in your backpack side pocket. Brew rich, creamy espresso in just 30 seconds wherever your travels take you."
+    },
+    {
+      "variant_id": 2,
+      "headline": "Power Your Remote Workday Without Outlets",
+      "body_copy": "Take your coffee ritual off-grid with this entirely manual, battery-free espresso maker. It delivers a rich crema in only 30 seconds, making it the ultimate companion for digital nomads and remote workers on the move."
+    },
+    {
+      "variant_id": 3,
+      "headline": "The Ultimate Travel Companion for Coffee Lovers",
+      "body_copy": "Never settle for bad coffee on the road again. This compact manual espresso maker slides effortlessly into any backpack pocket and whips up rich crema in a mere 30 seconds without needing a single battery."
+    }
+  ]
+}

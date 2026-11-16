@@ -1,0 +1,19 @@
+{
+  "variants": [
+    {
+      "variant_id": 1,
+      "headline": "Code All Night Without the Eye Strain",
+      "body_copy": "Meet the LuminaDesk Smart Lamp, engineered with zero-flicker eye-care LEDs and auto-dimming sensors to keep your late-night study sessions comfortable. Plus, the built-in wireless charger keeps your phone powered up while you crush your deadlines."
+    },
+    {
+      "variant_id": 2,
+      "headline": "The Ultimate Desk Companion for Students",
+      "body_copy": "Upgrade your dorm setup with four distinct color temperature modes tailored for reading, coding, or relaxing. Let the LuminaDesk Smart Lamp automatically adjust to your room's lighting so you can focus entirely on acing your exams."
+    },
+    {
+      "variant_id": 3,
+      "headline": "Power Your Late-Night Hustle",
+      "body_copy": "Ditch the clutter of extra cords and tired eyes with the LuminaDesk Smart Lamp. Featuring ambient light sensors and a seamless wireless phone charger, it is the ultimate productivity upgrade for every late-night coder and student."
+    }
+  ]
+}

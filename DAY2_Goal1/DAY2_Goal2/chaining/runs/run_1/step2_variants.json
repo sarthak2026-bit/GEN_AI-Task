@@ -1,0 +1,19 @@
+{
+  "variants": [
+    {
+      "variant_id": 1,
+      "headline": "Run Further, Charge Less",
+      "body_copy": "Meet the AeroPulse X1, the ultimate smartwatch built for urban runners and fitness beginners alike. With an incredible 14-day battery life and precise dual-band GPS tracking, you can conquer your city routes without ever worrying about losing power."
+    },
+    {
+      "variant_id": 2,
+      "headline": "Track Your Health with Confidence",
+      "body_copy": "Start your fitness journey right with the AeroPulse X1. Featuring advanced blood oxygen monitoring and comfortable sweat-resistant silicone straps, this smartwatch keeps you informed and motivated every single step of the way."
+    },
+    {
+      "variant_id": 3,
+      "headline": "Your Ultimate Running Companion",
+      "body_copy": "Transform your daily jogs with the AeroPulse X1 smart fitness watch. Combining dual-band GPS tracking with a reliable 14-day battery life, it is designed to help everyday athletes achieve their goals effortlessly."
+    }
+  ]
+}

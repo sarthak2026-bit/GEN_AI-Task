@@ -1,0 +1,4 @@
+﻿You are an expert ad copywriter. Based on the structured product attributes below, generate 3 distinct, compelling ad copy variants (each 2-3 sentences long) tailored to the target audience.
+
+Product Attributes (JSON):
+{attributes_json}

@@ -1,0 +1,5 @@
+﻿Extract the structured product attributes from the following free-text product brief.
+Be strictly factual based only on the provided text. Do not invent features not mentioned.
+
+Product Brief:
+{brief_text}
