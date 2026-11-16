@@ -1,0 +1,12 @@
+﻿INVOICE #INV-2026-008
+Vendor: CloudScale Networks
+Customer: Enterprise Corp
+Date: 2026-11-08
+Status: PENDING
+Billing Address: 9 Connaught Place, New Delhi, 110001
+
+Line Items:
+1. CDN Bandwidth Pack (10TB) - 1 unit @ $600.00 = $600.00
+2. SSL Certificate - 2 units @ $75.00 = $150.00
+
+Total Amount: $750.00

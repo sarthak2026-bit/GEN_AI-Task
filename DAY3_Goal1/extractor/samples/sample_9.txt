@@ -1,0 +1,12 @@
+﻿INVOICE #INV-2026-009
+Vendor: DevTools Pro
+Customer: Sarthak Kashyap
+Date: 2026-11-09
+Status: PAID
+Billing Address: 45 Tech Park Avenue, Mumbai, 400001
+
+Line Items:
+1. VS Code Extension Lifetime License - 1 unit @ $99.00 = $99.00
+
+Discount: $10.00
+Total Amount: $89.00

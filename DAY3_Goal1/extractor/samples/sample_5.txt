@@ -1,0 +1,11 @@
+﻿INVOICE #INV-2026-005
+Vendor: DataMetrics Corp
+Customer: Analytics Hub
+Date: 2026-11-05
+Status: PENDING
+Billing Address: 77 Park Street, Kolkata, 700016
+
+Line Items:
+1. Hadoop Cluster Maintenance - 2 units @ $250.00 = $500.00
+
+Total Amount: $500.00

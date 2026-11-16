@@ -1,0 +1,13 @@
+﻿INVOICE #INV-2026-001
+Vendor: Apex Cloud Solutions Inc.
+Customer: Sarthak Kashyap
+Date: 2026-11-01
+Status: PAID
+Billing Address: 45 Tech Park Avenue, Mumbai, 400001
+
+Line Items:
+1. Enterprise Cloud Server (1 month) - 2 units @ $150.00 = $300.00
+2. Dedicated Support Tier 2 - 1 unit @ $50.00 = $50.00
+
+Discount: $25.00
+Total Amount: $325.00

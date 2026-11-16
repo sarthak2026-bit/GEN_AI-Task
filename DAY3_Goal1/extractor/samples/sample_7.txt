@@ -1,0 +1,11 @@
+﻿INVOICE #INV-2026-007
+Vendor: CodeCraft Studio
+Customer: Startup Cell GEC
+Date: 2026-11-07
+Status: CANCELLED
+Billing Address: University Campus, Munger, 811201
+
+Line Items:
+1. Web App Redesign - 1 unit @ $450.00 = $450.00
+
+Total Amount: $450.00

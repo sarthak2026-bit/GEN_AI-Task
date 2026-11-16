@@ -1,0 +1,12 @@
+﻿INVOICE #INV-2026-002
+Vendor: Nexus AI Labs
+Customer: TechCorp Solutions
+Date: 2026-11-02
+Status: PENDING
+Billing Address: 12 MG Road, Bangalore, 560001
+
+Line Items:
+1. Gemini API Fine-tuning Pipeline - 5 units @ $200.00 = $1000.00
+
+Discount: None
+Total Amount: $1000.00

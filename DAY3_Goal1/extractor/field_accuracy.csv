@@ -1,0 +1,101 @@
+sample_id,field_name,extracted_value,ground_truth_value,exact_match
+sample_1,invoice_number,INV-2026-001,INV-2026-001,True
+sample_1,vendor_name,Apex Cloud Solutions Inc.,Apex Cloud Solutions Inc.,True
+sample_1,customer_name,Sarthak Kashyap,Sarthak Kashyap,True
+sample_1,invoice_date,2026-11-01,2026-11-01,True
+sample_1,status,PAID,PAID,True
+sample_1,billing_address.street,45 Tech Park Avenue,45 Tech Park Avenue,True
+sample_1,billing_address.city,Mumbai,Mumbai,True
+sample_1,billing_address.pin_code,400001,400001,True
+sample_1,discount_applied,25.0,25.0,True
+sample_1,total_amount,325.0,325.0,True
+sample_2,invoice_number,INV-2026-002,INV-2026-002,True
+sample_2,vendor_name,Nexus AI Labs,Nexus AI Labs,True
+sample_2,customer_name,TechCorp Solutions,TechCorp Solutions,True
+sample_2,invoice_date,2026-11-02,2026-11-02,True
+sample_2,status,PENDING,PENDING,True
+sample_2,billing_address.street,12 MG Road,12 MG Road,True
+sample_2,billing_address.city,Bangalore,Bangalore,True
+sample_2,billing_address.pin_code,560001,560001,True
+sample_2,discount_applied,None,None,True
+sample_2,total_amount,1000.0,1000.0,True
+sample_3,invoice_number,INV-2026-003,INV-2026-003,True
+sample_3,vendor_name,Global Logistics Ltd,Global Logistics Ltd,True
+sample_3,customer_name,Sarthak Kashyap,Sarthak Kashyap,True
+sample_3,invoice_date,2026-11-03,2026-11-03,True
+sample_3,status,OVERDUE,OVERDUE,True
+sample_3,billing_address.street,88 Marine Drive,88 Marine Drive,True
+sample_3,billing_address.city,Mumbai,Mumbai,True
+sample_3,billing_address.pin_code,400020,400020,True
+sample_3,discount_applied,None,None,True
+sample_3,total_amount,170.0,170.0,True
+sample_4,invoice_number,INV-2026-004,INV-2026-004,True
+sample_4,vendor_name,CyberShield Security,CyberShield Security,True
+sample_4,customer_name,WebSecure Inc,WebSecure Inc,True
+sample_4,invoice_date,2026-11-04,2026-11-04,True
+sample_4,status,PAID,PAID,True
+sample_4,billing_address.street,504 Cyber Tower,504 Cyber Tower,True
+sample_4,billing_address.city,Hyderabad,Hyderabad,True
+sample_4,billing_address.pin_code,500081,500081,True
+sample_4,discount_applied,50.0,50.0,True
+sample_4,total_amount,750.0,750.0,True
+sample_5,invoice_number,INV-2026-005,INV-2026-005,True
+sample_5,vendor_name,DataMetrics Corp,DataMetrics Corp,True
+sample_5,customer_name,Analytics Hub,Analytics Hub,True
+sample_5,invoice_date,2026-11-05,2026-11-05,True
+sample_5,status,PENDING,PENDING,True
+sample_5,billing_address.street,77 Park Street,77 Park Street,True
+sample_5,billing_address.city,Kolkata,Kolkata,True
+sample_5,billing_address.pin_code,700016,700016,True
+sample_5,discount_applied,None,None,True
+sample_5,total_amount,500.0,500.0,True
+sample_6,invoice_number,INV-2026-006,INV-2026-006,True
+sample_6,vendor_name,Apex Cloud Solutions Inc.,Apex Cloud Solutions Inc.,True
+sample_6,customer_name,Sarthak Kashyap,Sarthak Kashyap,True
+sample_6,invoice_date,2026-11-06,2026-11-06,True
+sample_6,status,PAID,PAID,True
+sample_6,billing_address.street,45 Tech Park Avenue,45 Tech Park Avenue,True
+sample_6,billing_address.city,Mumbai,Mumbai,True
+sample_6,billing_address.pin_code,400001,400001,True
+sample_6,discount_applied,100.0,100.0,True
+sample_6,total_amount,700.0,700.0,True
+sample_7,invoice_number,INV-2026-007,INV-2026-007,True
+sample_7,vendor_name,CodeCraft Studio,CodeCraft Studio,True
+sample_7,customer_name,Startup Cell GEC,Startup Cell GEC,True
+sample_7,invoice_date,2026-11-07,2026-11-07,True
+sample_7,status,CANCELLED,CANCELLED,True
+sample_7,billing_address.street,University Campus,University Campus,True
+sample_7,billing_address.city,Munger,Munger,True
+sample_7,billing_address.pin_code,811201,811201,True
+sample_7,discount_applied,None,None,True
+sample_7,total_amount,450.0,450.0,True
+sample_8,invoice_number,INV-2026-008,INV-2026-008,True
+sample_8,vendor_name,CloudScale Networks,CloudScale Networks,True
+sample_8,customer_name,Enterprise Corp,Enterprise Corp,True
+sample_8,invoice_date,2026-11-08,2026-11-08,True
+sample_8,status,PENDING,PENDING,True
+sample_8,billing_address.street,9 Connaught Place,9 Connaught Place,True
+sample_8,billing_address.city,New Delhi,New Delhi,True
+sample_8,billing_address.pin_code,110001,110001,True
+sample_8,discount_applied,None,None,True
+sample_8,total_amount,750.0,750.0,True
+sample_9,invoice_number,INV-2026-009,INV-2026-009,True
+sample_9,vendor_name,DevTools Pro,DevTools Pro,True
+sample_9,customer_name,Sarthak Kashyap,Sarthak Kashyap,True
+sample_9,invoice_date,2026-11-09,2026-11-09,True
+sample_9,status,PAID,PAID,True
+sample_9,billing_address.street,45 Tech Park Avenue,45 Tech Park Avenue,True
+sample_9,billing_address.city,Mumbai,Mumbai,True
+sample_9,billing_address.pin_code,400001,400001,True
+sample_9,discount_applied,10.0,10.0,True
+sample_9,total_amount,89.0,89.0,True
+sample_10,invoice_number,INV-2026-010,INV-2026-010,True
+sample_10,vendor_name,AI Innovations Ltd,AI Innovations Ltd,True
+sample_10,customer_name,Research Dept IIIT,Research Dept IIIT,True
+sample_10,invoice_date,2026-11-10,2026-11-10,True
+sample_10,status,OVERDUE,OVERDUE,True
+sample_10,billing_address.street,Science Block,Science Block,True
+sample_10,billing_address.city,Bhagalpur,Bhagalpur,True
+sample_10,billing_address.pin_code,813210,813210,True
+sample_10,discount_applied,None,None,True
+sample_10,total_amount,500.0,500.0,True

@@ -1,0 +1,11 @@
+﻿INVOICE #INV-2026-010
+Vendor: AI Innovations Ltd
+Customer: Research Dept IIIT
+Date: 2026-11-10
+Status: OVERDUE
+Billing Address: Science Block, Bhagalpur, 813210
+
+Line Items:
+1. LLM Evaluation Dataset - 4 units @ $125.00 = $500.00
+
+Total Amount: $500.00

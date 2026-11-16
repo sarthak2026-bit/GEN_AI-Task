@@ -1,0 +1,12 @@
+﻿INVOICE #INV-2026-006
+Vendor: Apex Cloud Solutions Inc.
+Customer: Sarthak Kashyap
+Date: 2026-11-06
+Status: PAID
+Billing Address: 45 Tech Park Avenue, Mumbai, 400001
+
+Line Items:
+1. GPU Instance Rental (A100) - 1 unit @ $800.00 = $800.00
+
+Discount: $100.00
+Total Amount: $700.00

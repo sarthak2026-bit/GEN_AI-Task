@@ -1,0 +1,13 @@
+﻿INVOICE #INV-2026-004
+Vendor: CyberShield Security
+Customer: WebSecure Inc
+Date: 2026-11-04
+Status: PAID
+Billing Address: 504 Cyber Tower, Hyderabad, 500081
+
+Line Items:
+1. Vulnerability Assessment Scan - 1 unit @ $500.00 = $500.00
+2. Firewall Audit - 1 unit @ $300.00 = $300.00
+
+Discount: $50.00
+Total Amount: $750.00
