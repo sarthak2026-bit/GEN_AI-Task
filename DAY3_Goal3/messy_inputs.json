@@ -1,0 +1,22 @@
+﻿[
+  {"id": 1, "input": "Hi my name is Rahul Sharma, reach me at rahul.sharma@gmail.com, phone 9876543210, living in Mumbai 400001"},
+  {"id": 2, "input": "Visiting card: Priya Patel, email is priya.patel@workdomain.co.in, contact number 8822113344, City: Bangalore, Pin 560034"},
+  {"id": 3, "input": "Aitbaar Singh here. Email: aitbaar.s@yahoo.com. Phone number is +91-9988776655. Delhi pin 110001."},
+  {"id": 4, "input": "Name: Amit Kumar | Email: amit@tech.org | Ph: 9123456789 | Pune 411057"},
+  {"id": 5, "input": "Contact Sneha Gupta at sneha.g@startup.io, mob 7766554433, Hyderabad - 500081"},
+  {"id": 6, "input": "Vikram Malhotra - vikram@enterprise.net - 9445566778 - Chennai 600018"},
+  {"id": 7, "input": "Ananya Roy | ananya.roy@design.studio | 8112233445 | Kolkata 700001"},
+  {"id": 8, "input": "Karan Johar k.johar@cinema.com call 9001122334 Mumbai 400050"},
+  {"id": 9, "input": "Neha Singh neha.singh@gmail.com 9811223344 Jaipur 302001"},
+  {"id": 10, "input": "Rohit Sharma rohit@hitman.in phone 9900112233 Nagpur 440010"},
+  {"id": 11, "input": "Garbled OCR card: N1me: Alok Verm@, em@il: alok.v@gmail.c0m, ph: 987112233f, city: Patna, pin: 800001"},
+  {"id": 12, "input": "Missing phone card: Pooja Hegde, pooja@actress.in, Ahmedabad 380015"},
+  {"id": 13, "input": "Mixed lang card: Mera naam Manish Kumar hai, email manish@kumar.com, phone 8899001122, Surat 395007"},
+  {"id": 14, "input": "Dr. Rameshwar Rao rameshwar.rao@hospital.org 9411223344 Visakhapatnam 530001"},
+  {"id": 15, "input": "Sunita Williams sunita@nasa.gov 9122334455 Ahmedabad 380001"},
+  {"id": 16, "input": "Zoya Akhtar zoya.akhtar@films.co 9833445566 Mumbai 400101"},
+  {"id": 17, "input": "Kabir Khan kabir@directors.net 9744556677 Delhi 110002"},
+  {"id": 18, "input": "Meera Nair meera.n@arts.in 9655667788 Kochi 682001"},
+  {"id": 19, "input": "Varun Dhawan varun@actor.co 9566778899 Pune 411001"},
+  {"id": 20, "input": "Deepika Padukone deepika@padukone.com 9477889900 Bangalore 560001"}
+]
