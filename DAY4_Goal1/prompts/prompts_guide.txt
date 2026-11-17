@@ -1,7 +1,0 @@
-# Nano Banana Pro Image Generation Prompts
-- Variant 1: Studio minimalist setup with soft neutral gradient background and warm directional lighting.
-- Variant 2: Lifestyle setting with natural wooden textures and soft morning sunlight.
-- Variant 3: Festive/Aspirational setup with subtle bokeh and premium props.
-
-# Gemini Brand-Check Prompt
-You are a strict brand compliance officer for AuraLux. Evaluate the generated variant image against brand_guidelines.md. Return JSON with 'status' ('pass' or 'fail') and 'reasoning'.
