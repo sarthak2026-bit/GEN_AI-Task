@@ -1,0 +1,25 @@
+{"question_id": "Q1", "query": "What was the repo rate decision by MPC?", "ground_truth_chunk_id": "RBI_CIRC_2023_01_c1"}
+{"question_id": "Q2", "query": "What is the headline CPI inflation projection?", "ground_truth_chunk_id": "RBI_CIRC_2023_01_c2"}
+{"question_id": "Q3", "query": "What are the rules for digital lending disbursals?", "ground_truth_chunk_id": "RBI_CIRC_2023_04_c1"}
+{"question_id": "Q4", "query": "How are video-based KYC norms strengthened?", "ground_truth_chunk_id": "RBI_CIRC_2023_04_c2"}
+{"question_id": "Q5", "query": "What was the CRAR of Scheduled Commercial Banks?", "ground_truth_chunk_id": "RBI_CIRC_2024_02_c1"}
+{"question_id": "Q6", "query": "What was the GNPA ratio fall in 2024?", "ground_truth_chunk_id": "RBI_CIRC_2024_02_c2"}
+{"question_id": "Q7", "query": "How did Indian equities perform in 2022?", "ground_truth_chunk_id": "NSE_ANN_2022_01_c1"}
+{"question_id": "Q8", "query": "What was the monthly retail SIP contribution?", "ground_truth_chunk_id": "NSE_ANN_2022_01_c2"}
+{"question_id": "Q9", "query": "What drove index options turnover growth in 2023?", "ground_truth_chunk_id": "NSE_ANN_2023_03_c1"}
+{"question_id": "Q10", "query": "How much did mid-cap and small-cap indices rally?", "ground_truth_chunk_id": "NSE_ANN_2023_03_c2"}
+{"question_id": "Q11", "query": "What is the mandate for top 1000 listed entities regarding BRSR?", "ground_truth_chunk_id": "NSE_ANN_2024_05_c1"}
+{"question_id": "Q12", "query": "How much did ESG compliance and carbon tracking improve?", "ground_truth_chunk_id": "NSE_ANN_2024_05_c2"}
+{"question_id": "Q13", "query": "Why do traditional keyword systems like BM25 fail?", "ground_truth_chunk_id": "ARXIV_ML_2022_45_c1"}
+{"question_id": "Q14", "query": "How much does dense bi-encoder retrieval improve recall?", "ground_truth_chunk_id": "ARXIV_ML_2022_45_c2"}
+{"question_id": "Q15", "query": "What are the trade-offs of 128-token versus 512-token chunks?", "ground_truth_chunk_id": "ARXIV_ML_2023_88_c1"}
+{"question_id": "Q16", "query": "Why is sliding overlap important in chunking?", "ground_truth_chunk_id": "ARXIV_ML_2023_88_c2"}
+{"question_id": "Q17", "query": "How does Reciprocal Rank Fusion eliminate exact-match blind spots?", "ground_truth_chunk_id": "ARXIV_ML_2024_12_c1"}
+{"question_id": "Q18", "query": "What role do cross-encoder rerankers play in production RAG?", "ground_truth_chunk_id": "ARXIV_ML_2024_12_c2"}
+{"question_id": "Q19", "query": "What is UPI Lite used for in low connectivity areas?", "ground_truth_chunk_id": "RBI_CIRC_2022_08_c1"}
+{"question_id": "Q20", "query": "What is the small-value transaction limit without real-time auth?", "ground_truth_chunk_id": "RBI_CIRC_2022_08_c2"}
+{"question_id": "Q21", "query": "What was the monetary policy stance on liquidity?", "ground_truth_chunk_id": "RBI_CIRC_2023_01_c1"}
+{"question_id": "Q22", "query": "Are pass-through pool accounts allowed for lending service providers?", "ground_truth_chunk_id": "RBI_CIRC_2023_04_c1"}
+{"question_id": "Q23", "query": "How did FPI outflows get offset in 2022?", "ground_truth_chunk_id": "NSE_ANN_2022_01_c1"}
+{"question_id": "Q24", "query": "What is the impact of weekly expiry contracts on NSE?", "ground_truth_chunk_id": "NSE_ANN_2023_03_c1"}
+{"question_id": "Q25", "query": "How do continuous vector spaces improve open-domain QA?", "ground_truth_chunk_id": "ARXIV_ML_2022_45_c2"}
