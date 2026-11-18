@@ -1,1 +1,11 @@
 doc_id,title,year,doc_type,num_pages,num_chunks
+ARXIV_ML_2022_45,Dense Passage Retrieval vs Sparse BM25 (2022),2022,arXiv Paper,2,2
+ARXIV_ML_2023_88,Chunking Strategies for Enterprise RAG (2023),2023,arXiv Paper,2,2
+ARXIV_ML_2024_12,Hybrid Search and Cross-Encoder Reranking (2024),2024,arXiv Paper,2,2
+NSE_ANN_2022_01,NSE Annual Market Capitalization Review 2022 (2022),2022,NSE Report,2,2
+NSE_ANN_2023_03,Derivatives and Equity Turnover Report 2023 (2023),2023,NSE Report,2,2
+NSE_ANN_2024_05,Corporate Governance and ESG Disclosures 2024 (2024),2024,NSE Report,2,2
+RBI_CIRC_2022_08,UPI Cross-Border and Offline Payments 2022 (2022),2022,RBI Circular,2,2
+RBI_CIRC_2023_01,Monetary Policy and Inflation Outlook 2023 (2023),2023,RBI Circular,2,2
+RBI_CIRC_2023_04,Digital Lending and KYC Guidelines 2023 (2023),2023,RBI Circular,2,2
+RBI_CIRC_2024_02,Financial Stability and Banking Resilience 2024 (2024),2024,RBI Circular,2,2
